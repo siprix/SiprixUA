@@ -39,12 +39,15 @@ Application's UI may not contain all the features, avialable in the SDK, they wi
   - Run `./cmake_Makefiles.sh` - it will generate make files and build app. 
   - Start compiled app from terminal using commands: `cd build/out`, `./SiprixUA` 	
 
-## Licensing
+## Limitations
 
-Single limitation of the attached Siprix SDK is limited call duration - it drops call after 60sec.
-To unlock this you need a license.
+Siprix doesn't provide VoIP services. For testing app you need an account(s) credentials from a SIP service provider(s). 
+Some features may be not supported by all SIP providers.
 
-Please contact (mailto:sales@siprix-voip.com) for more details.
+Attached Siprix SDK works in trial mode and has limited call duration - it drops call after 60sec.
+Upgrading to a paid license removes this restriction, enabling calls of any length.
+
+Please contact [sales@siprix-voip.com](mailto:sales@siprix-voip.com) for more details.
 
 ## More resources
 
